@@ -1,0 +1,106 @@
+.product-table-container {
+    margin: 20px; /* Container margin */
+}
+
+.login-container {
+    text-align: center; /* Center the login button */
+    margin: 50px 0; /* Vertical margins */
+  }
+  
+  .login-button,
+  .logout-button {
+    padding: 10px 20px; /* Padding for login and logout buttons */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #40ab2e; /* Button background color */
+    color: white; 
+    border-radius: 20px;
+    margin: 10px;/* Button text color */
+  }
+  
+  .login-button:hover,
+  .logout-button:hover {
+    background-color: #6511c6; /* Hover background color for buttons */
+  }
+
+.search-form {
+    position: relative; /* Positioning for search icon */
+    margin-bottom: 20px; /* Space below search form */
+}
+
+.search-icon {
+    position: absolute; /* Positioning icon inside input */
+    top: 50%; /* Center vertically */
+    left: 10px; /* Left padding */
+    right: 20px;
+    transform: translateY(-50%); /* Adjust for perfect centering */
+    color: #853838; /* Icon color */
+    
+} 
+
+.search-input {
+    padding: 8px 8px 8px 30px; /* Padding for search input including space for icon */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    font-size: 16px; /* Font size */
+    border: 1px solid #4107bd; /* Border styling */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.group-form {
+    margin-bottom: 20px; /* Space below group form */
+}
+
+.group-select {
+    padding: 8px; /* Padding for group select */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    font-size: 16px; /* Font size */
+    border: 1px solid #cb0b0b; /* Border styling */
+    border-radius: 4px; /* Rounded corners */
+    margin-left: 10px; /* Left margin */
+}
+
+.product-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapsed borders */
+}
+
+.product-table th, .product-table td {
+    padding: 10px; /* Padding for table cells */
+    border: 1px solid #6a5f83; /* Border styling */
+    text-align: left; /* Left-aligned text */
+    font-size: 700;
+    min-width: 90px;
+    max-width: 500px;
+}
+
+.product-table th {
+    background-color: #40ab2e; /* Header background color */
+    cursor: pointer; /* Pointer cursor on hover */
+    position: relative; /* Positioning for sort icons */
+}
+
+.product-table th:hover {
+    background-color: #6511c6; /* Hover background color for headers */
+}
+
+.product-table th svg {
+
+    margin-left: auto;
+     /* Left margin for sort icons */
+    vertical-align: middle; /* Align icons vertically with text */
+}
+
+.product-image {
+    width: 100px; /* Image width */
+    height: 100px; /* Maintain aspect ratio */
+}
+
+.loading {
+    text-align: center; /* Center text */
+    font-size: 24px; /* Large font size */
+    margin: 50px 0; /* Vertical margins */
+}
+
